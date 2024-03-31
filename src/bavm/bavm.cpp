@@ -62,17 +62,14 @@ int main()
 			case 20:
 				// [...10100] add - r1, r2, r3
 				rx[r3] = uint64_t(rx[r1]+rx[r2]);
-				rx[0] = 0;
 			break;
 			case 21:
 				// [...10101] sub - r1, r2, r3
 				rx[r3] = uint64_t(rx[r1]-rx[r2]);
-				rx[0] = 0;
 			break;
 			case 22:
 				// [...10110] mul - r1, r2, r3
 				rx[r3] = uint64_t(rx[r1]*rx[r2]);
-				rx[0] = 0;
 			break;
 			case 23:
 				// [...10111] div - r1, r2, r3
