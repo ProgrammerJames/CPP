@@ -32,6 +32,8 @@ int main()
 {
 	while (counter < 10)
 	{
+		// inst = 0000000000EEDDDDDCCCCCBBBBBAAAAA
+		// op: A, rs1: B, rs2: C, rs3: D, imm: C-D-E
 		uint64_t inst = queue[counter];
 		
 		// Instruction Variables
